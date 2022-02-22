@@ -10,11 +10,11 @@ __maintainer__ = 'Caroline_Gall' # Responsável por manter o programa funcionand
 __email__ = 'caroline.gall@poli.ufrj.br'
 __status__ = 'Produção'
 
-da importação válida do Sudoku *
-da tela importação *
-da importação do tabuleiro *
-da importação do jogador *
-de importação mecanicas *
+from validSudoku import *
+from tela import *
+from tabuleiro import *
+from jogador import *
+from mecanicas import *
 
 class Sudoku(Mecanicas): #Ira receber as mecanicas do jogo
 
