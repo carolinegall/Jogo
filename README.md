@@ -9,8 +9,8 @@ __version__ = '1.0.0'
 __maintainer__ = 'Caroline_Gall' # Responsável por manter o programa funcionando
 __email__ = 'caroline.gall@poli.ufrj.br'
 __status__ = 'Production'
-
-  """  Atenção alunos. Deste código apenas a função getSudoku() deve ser utilizada.
+"""
+    Atenção alunos. Deste código apenas a função getSudoku() deve ser utilizada.
     
     A função getSudoku() não recebe parâmetros e retorna uma lista de listas de inteiros que representam 
     um sudoku válido gerado aleatoriamente.
@@ -115,4 +115,3 @@ def main():
 
 if __name__=="__main__":
     main()
-    
