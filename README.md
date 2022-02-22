@@ -1,5 +1,16 @@
-"""
-    Atenção alunos. Deste código apenas a função getSudoku() deve ser utilizada.
+# Document properties
+
+'''Sudoku é um jogo Sudoku baseado na colocação lógica de números.'''
+__author__ = 'Caroline de oliveira gall'
+__copyright__ = 'Copyright_2021'
+__credits__ = __author__
+__license__ = 'CG'
+__version__ = '1.0.0'
+__maintainer__ = 'Caroline_Gall' # Responsável por manter o programa funcionando
+__email__ = 'caroline.gall@poli.ufrj.br'
+__status__ = 'Production'
+
+  """  Atenção alunos. Deste código apenas a função getSudoku() deve ser utilizada.
     
     A função getSudoku() não recebe parâmetros e retorna uma lista de listas de inteiros que representam 
     um sudoku válido gerado aleatoriamente.
