@@ -15,7 +15,7 @@ from tela import *
 from tabuleiro import *
 from jogador import *
 from mecanicas import *
-
+from import numpy as np*
 class Sudoku(Mecanicas): #Ira receber as mecanicas do jogo
 
     def __init__(self, jogador = 1): #Recebera o parâmetro de jogadores, sempre 1.
