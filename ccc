@@ -1,0 +1,31 @@
+# Document properties
+
+'''Sudoku é um jogo Sudoku baseado na colocação lógica de números.'''
+__author__ = 'Caroline de oliveira gall'
+__copyright__ = 'Copyright_2021'
+__credits__ = __author__
+__license__ = 'CG'
+__version__ = '1.0.0'
+__maintainer__ = 'Caroline_Gall' # Responsável por manter o programa funcionando
+__email__ = 'caroline.gall@poli.ufrj.br'
+__status__ = 'Production'
+
+from validSudoku import *
+from tela import *
+from tabuleiro import *
+from jogador import *
+from mecanicas import *
+
+class Sudoku(Mecanicas):    #recebe as mecanicas do jogo
+
+    def __init__(self, jogador = 1):    #recebe o parametro de jogadores, sempre 1.
+        pass
+    def solucao(self, solve):  #mostra a solução caso necessário
+        pass
+    def ganhou(self, find_empty):   #verifica e apresenta a mensagem que ganhou quando o jogador completa
+        pass
+
+    def __str__(self, funcao):  #representação em string
+        manual = manual.Tela
+        return (print(f'{funcao} : {manual[funcao]}'))
+        
